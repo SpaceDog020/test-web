@@ -272,6 +272,7 @@ export default function EditableIncidentHistoryList({ entityId, initialReportId 
           <StatusFilter
             selectedStatuses={selectedStatuses}
             onChange={setSelectedStatuses}
+            disabled={isLoading}
           />
         </form>
       </div>

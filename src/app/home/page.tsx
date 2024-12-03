@@ -46,7 +46,7 @@ function HomePage() {
   const [filteredReports, setFilteredReports] = useState<Report[]>([]);
   const [selectedStatuses, setSelectedStatuses] = useState<string[]>([]);
   const [isBrowser, setIsBrowser] = useState(false);
-  const [permission, setPermission] = useState<Boolean | null>(false);
+  const [permission, setPermission] = useState<boolean | null>(false);
 
   useEffect(() => {
     setIsBrowser(true);
